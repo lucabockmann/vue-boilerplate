@@ -14,10 +14,8 @@ Vue.use(IconsPlugin);
 Vue.config.productionTip = false;
 
 router.beforeEach((to, from, next) => {
-
-  // use the language from the routing param or default language
   let language = to.params.lang;
-  if (!language) {
+  if (!language || language == 'undefined') {
     language = 'en'
   }
 

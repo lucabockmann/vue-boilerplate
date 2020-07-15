@@ -1,14 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import i18n from 'vue-i18n'
 
 Vue.use(VueRouter)
 
   const routes = [
     {
       path: '/',
-      redirect: `/${i18n.locale}`
+      redirect: `/en`
     },
     {
       path: '/:lang',
@@ -17,13 +16,13 @@ Vue.use(VueRouter)
       },
       children: [
         {
-          path: '/',
+          path: `/`,
           name: 'Home',
           component: Home
         },
         {
           path: 'features',
-          name: 'About',
+          name: 'Features',
           component: () => import('../views/Features.vue')
         }
       ]

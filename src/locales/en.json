@@ -1,7 +1,7 @@
 {
   "pages": {
     "HomeHeadline": "Hello! Have fun with Vue boilerplate",
-    "FeatureHeadline": "Was hat das Vue Boilerplate zu bieten"
+    "FeatureHeadline": "What does the Vue Boilerplate have to offer"
   },
 
   "components": {

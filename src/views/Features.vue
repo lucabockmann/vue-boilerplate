@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>{{ $t('pages.FeatureHeadline') }}</h1>
 
     <h3>Installed CLI Plugins</h3>
     <ul>

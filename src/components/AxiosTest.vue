@@ -21,7 +21,7 @@
                         <b>{{data.full_name}}</b> <br>
                         Follower: <b>{{ data.edge_followed_by.count }}</b> <br>
                         Posts: <b>{{data.edge_owner_to_timeline_media.count}}</b> <br>
-                          <b-button :href="'https://www.instagram.com/' + data.username" target="_blank" variant="outline-info" size="sm">view Profile</b-button>
+                        <b-button :href="'https://www.instagram.com/' + data.username" target="_blank" variant="outline-info" size="sm">view Profile</b-button>
                     </b-col>
                 </b-row>
             </b-container>
