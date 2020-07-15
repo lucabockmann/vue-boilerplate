@@ -1,18 +1,23 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1 class="text-center">{{ $t('pages.HomeHeadline') }}</h1>
+    <p class="text-center">
+      For a guide and recipes on how to configure / customize this project,<br>
+      check out the
+      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+    </p>
+
+    <AxiosTest></AxiosTest>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import AxiosTest from '@/components/AxiosTest.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    AxiosTest
   }
 }
 </script>

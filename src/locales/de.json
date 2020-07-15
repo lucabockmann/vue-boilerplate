@@ -1,0 +1,10 @@
+{
+  "pages": {
+    "HomeHeadline": "Moin! Viel Spaß mit Vue Boilerplate",
+    "FeatureHeadline": "Was hat das Vue Boilerplate zu bieten"
+  },
+
+  "components": {
+    "GitHubHeadline": "Gib deinen GitHub Namen ein!"
+  }
+}
