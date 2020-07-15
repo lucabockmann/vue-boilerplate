@@ -1,3 +1,10 @@
 {
-    "message": "hallo i18n !!"
+  "pages": {
+    "HomeHeadline": "Moin! Viel Spaß mit Vue Boilerplate",
+    "FeatureHeadline": "Was hat das Vue Boilerplate zu bieten"
+  },
+
+  "components": {
+    "InstagramHeadline": "Gib deinen Instagram Namen ein!"
   }
+}
