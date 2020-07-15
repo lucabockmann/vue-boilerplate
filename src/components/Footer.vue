@@ -4,6 +4,7 @@
                 <b-row>
                     <b-col>
                         Kontakt
+                        <p>Habt ihr Feedback? Dann schreibt mir eichfach eine Mail oder DM</p>
                     </b-col>
 
                     <b-col>

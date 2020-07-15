@@ -1,7 +1,15 @@
 <template>
 	<div id="app">
 		<b-container>
-      <img alt="Vue logo" src="./assets/logo.png">
+      <b-row class="mt-3">
+          <b-col class="text-right">
+              <img alt="Vue logo" width="50px" src="./assets/logo.png">
+          </b-col>
+
+          <b-col class="text-left align-self-center">
+              Vue Boilerplate
+          </b-col>
+      </b-row>
 
 			<nav id="nav">
           <b-button variant="outline-success" class="mr-3"><router-link :to="'/' + $i18n.locale + '/'">Home</router-link></b-button>

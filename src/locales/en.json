@@ -5,6 +5,6 @@
   },
 
   "components": {
-    "InstagramHeadline": "Enter your Instagram name"
+    "GitHubHeadline": "Enter your GitHub name"
   }
 }
